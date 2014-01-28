@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Core.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="surface.cpp">
+      <Filter>Tmpl8</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>Tmpl8</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="UtilityClasses.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Boat.cpp" />
+    <ClCompile Include="Bubble.cpp" />
+    <ClCompile Include="OpenGLFunctions.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="SphereCollider.cpp" />
+    <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="InvisibleWall.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="Waypoint.cpp" />
+    <ClCompile Include="TextRenderer.cpp" />
+    <ClCompile Include="QuadTreeNode.cpp" />
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RaceManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenuState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayingState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiButton.cpp" />
+    <ClCompile Include="AirTimeArea.cpp" />
+    <ClCompile Include="Mine.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="MineSpawner.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="CountDown.cpp" />
+    <ClCompile Include="WaterPlane.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="surface.h">
+      <Filter>Tmpl8</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>Tmpl8</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="UtilityClasses.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Boat.h" />
+    <ClInclude Include="Bubble.h" />
+    <ClInclude Include="OpenGLFunctions.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="SphereCollider.h" />
+    <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="InvisibleWall.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="Waypoint.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="TextRenderer.h" />
+    <ClInclude Include="QuadTreeNode.h" />
+    <ClInclude Include="TextureManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RaceManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayingState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiButton.h" />
+    <ClInclude Include="AirTimeArea.h" />
+    <ClInclude Include="Mine.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="MineSpawner.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="CountDown.h" />
+    <ClInclude Include="WaterPlane.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tmpl8">
+      <UniqueIdentifier>{84e033b5-efd4-4a57-aea5-15bfc4ed25e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{3fcc4903-99d8-4cd8-b948-dcf2dfa497e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{9027a434-e7ce-4bc3-9959-0e6f4ea9c0c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
